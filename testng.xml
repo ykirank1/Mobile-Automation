@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.auto.framework.base.TestListener" />
+	</listeners>
+
+	<test name="Tests">
+		<classes>
+			<class name="com.cnhi.tests.TC01_BreakdownCreationJobcardDetails"/>
+			<class name="com.cnhi.tests.TC02_BreakdownCreationVehicleDetailsTest"/>
+			<class name="com.cnhi.tests.TC03_BreakdownVehicleReceptionChecklist"/>
+		</classes>
+	</test>
+</suite>
